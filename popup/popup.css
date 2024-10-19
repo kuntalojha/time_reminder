@@ -58,7 +58,7 @@ p {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgba(0, 0, 0, 0.7); /* Black w/ opacity */
+  background-color: rgba(0, 0, 0, 0.811); /* Black w/ opacity */
 }
 
 .modal-content {
