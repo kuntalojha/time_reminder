@@ -42,10 +42,16 @@ h2 {
   color: white;
 }
 
+h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0.5rem;
+}
+
 p {
   font-size: 1.5rem;
   margin: 0;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 
 /* Modal Styles */
