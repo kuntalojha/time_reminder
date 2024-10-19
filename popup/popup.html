@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Time Reminder</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Popup Window</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+    <!-- Hamburger icon -->
+
+    <div class="popup">
+      <h1>Do it Today. Do it now. No more procrastination.</h1>
+      <h2>Years ends in</h2>
+      <p>Years Months Days Hours Minutes Seconds</p>
+    </div>
+
+    <!-- Modal Structure -->
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <span class="close" id="close">&times;</span>
+        <div id="modal-body"></div>
+        <!-- This will hold the loaded options content -->
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
 </html>
