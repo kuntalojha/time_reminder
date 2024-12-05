@@ -25,7 +25,8 @@ window.onclick = function (event) {
 };
 
 // Set the target date and time for the countdown
-const targetDate = new Date('December 31, 2024 23:59:59').getTime(); // Change to your desired end date
+// const targetDate = new Date('December 31, 2024 23:59:59').getTime(); // Change to your desired end date
+const targetDate = new Date('March 25, 2025 23:59:59').getTime(); // Change to your desired end date
 
 // Function to update the countdown timer
 function updateTimer() {
