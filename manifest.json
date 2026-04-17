@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Your Extension Name",
+  "name": "Time Reminder",
   "version": "1.0",
-  "description": "A brief description of what your extension does.",
+  "description": "A Chrome extension to remind users of the current time and help manage their time effectively.",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48_1.png",
